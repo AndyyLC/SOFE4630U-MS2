@@ -12,7 +12,7 @@ files=glob.glob("*.json")
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"]=files[0];
 
 # Set the project_id with your project ID
-project_id="";
+project_id="amiable-nirvana-449116-h3";
 topic_name = "smartMeterReadings";   # change it for your topic name if needed
 
 # create a publisher and get the topic path for the publisher
